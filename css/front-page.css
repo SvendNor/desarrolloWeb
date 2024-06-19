@@ -1,0 +1,71 @@
+body{
+    background-image: url(/assets/images/fondoPagina/speedometer.jpg!d);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.flex-container-hor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    background-color:rgb(51, 48, 48);
+    margin: 10px;
+}
+
+.box-1{
+    border: 2px solid black;
+    padding: 15px;
+    background-image: url(/assets/images/eventos/StanceNation-Japan-Odaiba.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    color: rgb(218, 212, 212);
+    text-decoration: none;
+}
+
+.flex-container-ver{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color:rgb(51, 48, 48);
+    margin: 10px;
+    order: 2;
+}
+
+.title-1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.title-2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.paragraph{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+.ending{
+    background-color:rgb(51, 48, 48);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+}

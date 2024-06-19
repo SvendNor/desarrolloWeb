@@ -13,6 +13,22 @@ article{
 
 /* ----MENU---- */
 
+.flex-container-ver{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: #333;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.flex-container-hor{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/*
 .menu {
     list-style: none;
     margin: 10px;
@@ -31,7 +47,7 @@ article{
 }
 
 .menu li:hover ul {
-    display: block;
+    display:inline-block;
 }
 
 .menu ul {
@@ -52,9 +68,12 @@ article{
     padding: 0;
 }
 
+*/
+
 /* ------------ */
 
 .address{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 175px;
     margin: 10px;
     margin-left: auto;
@@ -74,6 +93,7 @@ article{
     padding-left: 20px;
     text-align: center;
     box-shadow: inset -10px 5px 5px teal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .image{
@@ -83,6 +103,6 @@ article{
     padding: 10px;
 }
 
-.block{
-    
+.paragraph{
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
